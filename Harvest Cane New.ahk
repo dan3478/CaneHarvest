@@ -1,9 +1,9 @@
 ﻿x::
-Send, {d up}
-Send, {w up}
-Send, {a up}
-Send, {lbutton up}
-Send, {rbutton up}
+Send {d up}
+Send {w up}
+Send {a up}
+Send {lbutton up}
+Send {rbutton up}
 ExitApp
 
 1::
