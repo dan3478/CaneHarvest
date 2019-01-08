@@ -68,13 +68,13 @@ Send {w up}
 Return
 
 LayerLoop:
-Loop, 10 {
+Loop 10 {
 Sleep 100
 Send {lbutton down}
-Gosub, MoveRight
-Gosub, MoveLeft
-Gosub, MoveRight
-Gosub, MoveLeft
+Gosub MoveRight
+Gosub MoveLeft
+Gosub MoveRight
+Gosub MoveLeft
 Send {lbutton up}
 Cmd("shop farming")
 Sleep 1000
